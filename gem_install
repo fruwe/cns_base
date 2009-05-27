@@ -1,0 +1,5 @@
+sudo gem uninstall cns_base
+rm -rf pkg
+rake package
+sudo gem install pkg/cns_base-0.0.5.gem
+rm -rf pkg
